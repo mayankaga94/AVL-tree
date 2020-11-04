@@ -1,8 +1,8 @@
 # AVL-tree
-###Data Structures and Algorithm.
+### Data Structures and Algorithm.
 Implemented AVL tree and a set of functions associated with AVL tree.
 
-##For Simplicity we make the following assumptions,
+## For Simplicity we make the following assumptions,
 1. Each item of an AVL tree contains an integer key and an integer value.
 
 2. No AVL tree contains duplicate items. Two items (k1, v1) and (k2, v2) are duplicates
@@ -11,7 +11,7 @@ iff k1=k2 and v1=v2 hold.
 3. An AVL tree may contains multiple items with the same key and the number of
 duplicate keys is a constant.
 
-##A quick description of all implemented functions:
+## A quick description of all implemented functions:
 
 1. AVLTree *CreateAVLTree(const char *filename). This function creates an AVL tree by reading all the items from a text file or from the standard input (keyboard) depending on the argument filename. If filename is “stdin”, this function will read all the items from the standard input. Otherwise, it will read all the items from a text file with filename as its full path name.
 
